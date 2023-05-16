@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inter:wght@600&display=swap');
+
+body{
+    background: rgb(131,124,200);
+background: linear-gradient(90deg, rgba(131,124,200,1) 23%, rgba(114,1,170,1) 95%);
+}
+
+.post{
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 100%;
+    object-fit: cover
+}
+
+.username{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.blog{
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.icon{
+    
+}
+.likes{
+    display: inline;
+    font-family: 'Fredoka', sans-serif;
+    margin: 5px;
+}
